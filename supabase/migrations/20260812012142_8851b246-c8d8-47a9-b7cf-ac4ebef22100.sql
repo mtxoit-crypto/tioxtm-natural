@@ -1,0 +1,1 @@
+UPDATE public.products SET price = 70.99 WHERE name = 'Magnésio Quelato';

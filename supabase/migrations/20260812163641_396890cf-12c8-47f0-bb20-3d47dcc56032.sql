@@ -1,0 +1,1 @@
+UPDATE public.products SET image_url = '/produtos/' || CASE slug WHEN 'magnesio-inositol-melatonina' THEN 'magnesio-inositol' WHEN 'picolinato-de-cromo' THEN 'picolinato-cromo' ELSE slug END || '.png' WHERE is_active = true;

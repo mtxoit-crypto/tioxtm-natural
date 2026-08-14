@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.log_order_deletion() FROM PUBLIC, anon, authenticated;
